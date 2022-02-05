@@ -3,7 +3,8 @@ import CoolProp.CoolProp as CP
 import pandas as pd
 import math
 
-print("Modelamiento matematico final para la tesis - ORC Simple")
+print("Modelamiento matematico de un Ciclo Rankine Orgánico que aprovecha los gases de escape \n"
+      "de un motor de combustión interna")
 print("")
 fluidos = ["R717", "R245fa", "R123", "R245ca", "R141b", "R134a", "R22",
            "R152a", "RC318", "R236fa", "R236EA", "R227ea",
